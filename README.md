@@ -37,16 +37,16 @@ This repository is structured to provide a comprehensive overview of various asp
 
 Machine learning, especially deep learning, offers unparalleled capabilities for analyzing and solving complex problems. By mastering these tools, we can:
 
-	• Understand Complex Systems: Apply machine learning models to uncover hidden patterns and relationships within complex datasets, leading to a deeper understanding of nonlinear dynamics and other complex phenomena.
-	• Innovate Across Fields: Utilize advanced algorithms to address challenging problems in various domains, from physics and engineering to healthcare and environmental science.
-	• Generalize Solutions: Develop methodologies that can be adapted to solve a variety of complex problems across different domains, demonstrating the versatility of machine learning.
+• Understand Complex Systems: Apply machine learning models to uncover hidden patterns and relationships within complex datasets, leading to a deeper understanding of nonlinear dynamics and other complex phenomena.
+• Innovate Across Fields: Utilize advanced algorithms to address challenging problems in various domains, from physics and engineering to healthcare and environmental science.
+• Generalize Solutions: Develop methodologies that can be adapted to solve a variety of complex problems across different domains, demonstrating the versatility of machine learning.
 
 My background in computational physics has given me a strong foundation in mathematical modeling and data analysis, which I am eager to apply to broader contexts through machine learning. This repository is a step towards that vision, providing a platform to learn, experiment, and innovate with machine learning techniques.
 
 ## How to Use This Repository
 
-	• Navigate the Sections: Explore the different sections as outlined above to find resources, code examples, and research papers.
-	• Contribute: Feel free to fork this repository and contribute by adding your own solutions, improvements, or new sections.
+• Navigate the Sections: Explore the different sections as outlined above to find resources, code examples, and research papers.
+• Contribute: Feel free to fork this repository and contribute by adding your own solutions, improvements, or new sections.
 
 ## Contact
 
