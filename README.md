@@ -1,10 +1,10 @@
-Machine Learning for Complex Systems
+# Machine Learning for Complex Systems
 
-Purpose
+## Purpose
 
 Welcome to my GitHub repository dedicated to exploring the vast potential of machine learning across a variety of domains. As a Ph.D. graduate in Computational Physics, I have a deep appreciation for the power of machine learning, particularly deep learning, in addressing complex nonlinear systems. However, my interest extends beyond this; I believe that mastering machine learning is essential for solving a wide range of challenging problems in various fields. This repository aims to demonstrate how machine learning techniques can be applied not only to complex systems in physics but also to other intricate situations, contributing to our broader understanding of the world.
 
-Contents
+## Contents
 
 This repository is structured to provide a comprehensive overview of various aspects of machine learning and its applications. It includes the following sections:
 
@@ -33,22 +33,22 @@ This repository is structured to provide a comprehensive overview of various asp
 	•	Research papers and academic manuscripts showcasing the application of machine learning to complex nonlinear systems and beyond.
 	•	Studies focused on solving real-world problems in physics and related fields using deep learning techniques.
 
-Why Machine Learning?
+## Why Machine Learning?
 
 Machine learning, especially deep learning, offers unparalleled capabilities for analyzing and solving complex problems. By mastering these tools, we can:
 
-	1.	Understand Complex Systems: Apply machine learning models to uncover hidden patterns and relationships within complex datasets, leading to a deeper understanding of nonlinear dynamics and other complex phenomena.
-	2.	Innovate Across Fields: Utilize advanced algorithms to address challenging problems in various domains, from physics and engineering to healthcare and environmental science.
-	3.	Generalize Solutions: Develop methodologies that can be adapted to solve a variety of complex problems across different domains, demonstrating the versatility of machine learning.
+	• Understand Complex Systems: Apply machine learning models to uncover hidden patterns and relationships within complex datasets, leading to a deeper understanding of nonlinear dynamics and other complex phenomena.
+	• Innovate Across Fields: Utilize advanced algorithms to address challenging problems in various domains, from physics and engineering to healthcare and environmental science.
+	• Generalize Solutions: Develop methodologies that can be adapted to solve a variety of complex problems across different domains, demonstrating the versatility of machine learning.
 
 My background in computational physics has given me a strong foundation in mathematical modeling and data analysis, which I am eager to apply to broader contexts through machine learning. This repository is a step towards that vision, providing a platform to learn, experiment, and innovate with machine learning techniques.
 
-How to Use This Repository
+## How to Use This Repository
 
-	•	Navigate the Sections: Explore the different sections as outlined above to find resources, code examples, and research papers.
-	•	Contribute: Feel free to fork this repository and contribute by adding your own solutions, improvements, or new sections.
+	• Navigate the Sections: Explore the different sections as outlined above to find resources, code examples, and research papers.
+	• Contribute: Feel free to fork this repository and contribute by adding your own solutions, improvements, or new sections.
 
-Contact
+## Contact
 
 If you have any questions, suggestions, or collaborations in mind, please feel free to reach out to me at zhiweifan1994@gmail.com.
 
