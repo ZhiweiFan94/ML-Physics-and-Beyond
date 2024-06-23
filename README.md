@@ -11,20 +11,27 @@ This repository is structured to provide a comprehensive overview of various asp
 1. Physics-Informed Neural Networks (PINNs)
 
 	•	Solving Nonlinear Systems with Numerical Algorithms: Implementation of mature numerical algorithms to solve nonlinear systems.
+
 	•	Introducing Deep Learning to Solve Nonlinear Systems: Exploration of various deep learning techniques and their application to nonlinear systems.
+
 	•	Building an Interface for Predictive Use: Creating an interface for users to upload time-space training data, using it for predictive modeling and analysis.
+
 	•	Case Studies and Examples: Detailed examples and practical implementations using TensorFlow and PyTorch.
 
-2. Algorithms
+3. Algorithms
 
 	•	Fundamental Data Structures and Algorithms: Essential for efficient machine learning implementations.
+
 	•	Common Algorithms: Implementations of widely used algorithms such as k-Nearest Neighbors (k-NN), Random Forests, Convolutional Neural Networks (CNN), Decision Trees, etc.
+
 	•	Examples and Explanations: Detailed explanations and practical examples for data processing and analysis.
 
-3. Kaggle Projects
+5. Kaggle Projects
 
 	•	Participation in Kaggle Competitions: Detailed notebooks and scripts from participation in various Kaggle competitions.
+
 	•	Exploratory Data Analysis and Feature Engineering: Steps and methodologies used in the preparation of datasets.
+
 	•	Model Building and Evaluation: Implementations and evaluations of different machine learning models using Kaggle datasets.
 
 
