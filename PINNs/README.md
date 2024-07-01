@@ -3,7 +3,7 @@
 The Lugiato-Lefever equation is a partial differential equation used in nonlinear optics to describe the field inside an optical cavity. It is given by:
 
 $$
-i\frac{\partial \psi(t, \theta)}{\partial t} = \delta_0 \psi -  \frac{D_2}{2}\partial^2_\theta \psi(t, \theta) - \gamma|\psi(t, \theta)|^2 \psi(t,\theta)  + i\left(\frac{\kappa}{2}-H \right)\psi
+i\frac{\partial \psi(t, \theta)}{\partial t} = \delta_0 \psi -  \frac{D_2}{2}\partial^2_\theta \psi(t, \theta) - \gamma|\psi(t, \theta)|^2 \psi(t,\theta)  + i\frac{\kappa}{2}\left(\psi-H \right)
 $$
 
 where:
