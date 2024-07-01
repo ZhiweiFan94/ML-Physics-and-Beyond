@@ -26,3 +26,22 @@ where:
 - $H$ is the driving field amplitude.
 
 This equation is a variant of the nonlinear Schrödinger equation (NLSE) with additional terms to account for cavity effects and external driving. The forms of dispersion and nonlinearity should be revised per materials and other factors, and here we assume the higher-order dispersion is weak in a Kerr medium.
+
+### Comprehensive Understanding of the LLE
+
+The Lugiato-Lefever Equation can seem complex at first glance, so let's break it down with a few examples and intuitive explanations.
+
+1. **Optical Frequency Combs:**
+   Optical frequency combs are spectra consisting of a series of discrete, equally spaced elements. They are crucial for high-precision measurements and have applications in spectroscopy, telecommunications, and the development of optical clocks. The LLE helps in understanding how these combs can be generated within an optical cavity. When a continuous wave laser is coupled into a nonlinear optical resonator, the interaction between the dispersion and the Kerr nonlinearity (intensity-dependent refractive index) described by the LLE can lead to the formation of a stable frequency comb.
+
+2. **Temporal Cavity Solitons:**
+   Temporal cavity solitons are stable pulses of light that can circulate indefinitely within an optical cavity. These solitons are solutions to the LLE and are formed due to a balance between dispersion, nonlinearity, and the driven-damped nature of the system. Imagine a single pulse of light that maintains its shape and energy as it circulates inside the cavity, thanks to the precise balance of the LLE terms. These solitons can be used in optical communication systems to transmit information over long distances without distortion.
+
+3. **Pattern Formation:**
+   The LLE also explains how certain patterns of light can form in an optical cavity. These patterns result from the interplay between the nonlinearity and dispersion in the medium. For example, under certain conditions, the light field within the cavity can spontaneously break symmetry and form periodic patterns or localized structures. This phenomenon is similar to how ripples form on the surface of a pond when disturbed.
+
+### Practical Example
+
+Let's consider a simple analogy to understand the LLE. Imagine you're pushing a swing (the light field) in a playground. The swing has a natural frequency (resonance), and you push it at this frequency (driving force). If you push too hard (high driving amplitude), the swing will move erratically, but if you push just right, it will swing back and forth smoothly. Now, if the swing's chain is stretchy (nonlinearity), the swing's frequency will change depending on how high it goes. Additionally, if there's a little friction (loss), you need to keep pushing to maintain the swing's motion.
+
+
