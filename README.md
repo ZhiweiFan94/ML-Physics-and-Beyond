@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Welcome to my GitHub repository dedicated to exploring the vast potential of machine learning across a variety of domains. As a Ph.D. graduate in Computational Physics, I have a deep appreciation for the power of machine learning, particularly deep learning, in addressing complex nonlinear systems. However, my interest extends beyond this; I believe that mastering machine learning is essential for solving a wide range of challenging problems in various fields. This repository aims to demonstrate how machine learning techniques can be applied not only to complex systems in physics but also to other intricate situations, hopefully contributing to our broader understanding of the world 
+Welcome to my GitHub repository dedicated to exploring the vast potential of machine learning across a variety of domains. My background is deeply rooted in Computational Physics, and I have a deep appreciation for the power of machine learning, particularly deep learning, in addressing complex nonlinear systems. However, my interest extends beyond this; I believe that mastering machine learning is essential for solving a wide range of challenging problems in various fields. This repository aims to demonstrate how machine learning techniques can be applied not only to complex systems in physics but also to other intricate situations, hopefully contributing to our broader understanding of the world 
 
 ## Contents
 
