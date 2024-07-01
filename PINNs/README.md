@@ -6,10 +6,6 @@ The LLE is pivotal for understanding phenomena like optical frequency comb gener
 
 Traditional methods of solving the LLE involve numerical techniques which can be computationally intensive and sensitive to initial conditions. Recently, the advent of machine learning and, more specifically, Physics-Informed Neural Networks (PINNs) has provided a new paradigm for solving such differential equations. PINNs leverage the power of neural networks while embedding the physical laws governing the system into the learning process, thereby offering an efficient and potentially more accurate means of modeling complex dynamical systems like those described by the LLE.
 
-## Modeling: A driven-damped NLSE -- Lugiato-Lefever Equation
-
-The Lugiato-Lefever equation is a partial differential equation used in nonlinear optics to describe the field inside an optical cavity. It is given by:
-
 
 ## Modeling: A driven-damped NLSE -- Lugiato-Lefever Equation
 
