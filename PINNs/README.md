@@ -16,4 +16,4 @@ where:
 - $\delta_0 = \omega_0 - \omega_p$ is the cavity detuning between laser and pump,
 - $H$ is the driving field amplitude.
 
-This equation is a variant of the nonlinear Schrödinger equation (NLSE) with additional terms to account for cavity effects and external driving. The term $i \frac{\partial^2}{\partial \tau^2} E(t, \tau)$ represents the group velocity dispersion, while $i |E(t, \tau)|^2 E(t, \tau)$ accounts for the Kerr nonlinearity.
+This equation is a variant of the nonlinear Schrödinger equation (NLSE) with additional terms to account for cavity effects and external driving. The forms of dispersion and nonlinearity should be revised per materials and other factors, and here we assume the higher-order dispersion is weak in a Kerr medium.
