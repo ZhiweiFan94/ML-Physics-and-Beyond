@@ -10,8 +10,8 @@ where:
 
 - $\psi(t, \theta)$ is the complex field envelope,
 - $t$ is the slow time variable,
-- $D_2$ is the group velocity dispersion coefficient (higher dispersions are omitted),
 - $\theta$ is the spatial variable,
+- $D_2$ is the group velocity dispersion coefficient (higher dispersions are omitted),
 - $\kappa$ is the cavity loss rate,
 - $\delta_0 = \omega_0 - \omega_p$ is the cavity detuning between laser and pump,
 - $H$ is the driving field amplitude.
