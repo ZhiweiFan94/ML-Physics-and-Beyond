@@ -9,10 +9,11 @@ $$
 where:
 
 - $\psi(t, \theta)$ is the complex field envelope,
-- $t$ is the slow time variable (cavity round-trip time),
-- $\tau$ is the fast time variable (time within the cavity),
+- $t$ is the slow time variable,
+- $D_2$ is the group velocity dispersion coefficient (higher dispersions are omitted),
+- $\theta$ is the spatial variable,
 - $\kappa$ is the cavity loss rate,
-- $\delta_0 = \omega_0 - \omega_p$ is the cavity detuning between laser and pump frequency,
+- $\delta_0 = \omega_0 - \omega_p$ is the cavity detuning between laser and pump,
 - $H$ is the driving field amplitude.
 
 This equation is a variant of the nonlinear Schrödinger equation (NLSE) with additional terms to account for cavity effects and external driving. The term $i \frac{\partial^2}{\partial \tau^2} E(t, \tau)$ represents the group velocity dispersion, while $i |E(t, \tau)|^2 E(t, \tau)$ accounts for the Kerr nonlinearity.
