@@ -123,6 +123,8 @@ To apply PINNs to the Lugiato-Lefever Equation, the following steps are typicall
 5. **Evaluate the Model:**
    After training, evaluate the performance of the PINN by comparing its predictions with known solutions or additional test data. Assess the accuracy and physical consistency of the results.
 
+Here, we factorize the real and imaginary parts of the LLE by  $\psi=u+i\cdot v, then the original model can be written in terms of the real and imaginary parts accordingly:
+
 ### Advantages of PINNs
 
 - **Reduced Data Dependency:**
@@ -139,3 +141,5 @@ To apply PINNs to the Lugiato-Lefever Equation, the following steps are typicall
 While PINNs offer numerous advantages, they also present certain challenges, such as the need for careful tuning of hyperparameters and the potential for increased computational complexity. Ongoing research aims to address these challenges and expand the applicability of PINNs to a broader range of physical systems.
 
 In summary, Physics-Informed Neural Networks provide a powerful framework for solving the Lugiato-Lefever Equation, combining the strengths of machine learning with the rigor of physical laws. This approach holds great promise for advancing our understanding and modeling of complex dynamical systems in nonlinear optics and beyond.
+
+
