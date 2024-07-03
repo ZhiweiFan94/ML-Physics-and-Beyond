@@ -6,7 +6,7 @@ Welcome to my GitHub repository dedicated to exploring the vast potential of mac
 
 ## Contents
 
-This repository is structured to provide a comprehensive overview of various aspects of machine learning and its applications. It includes the following sections:
+This repository is structured to provide a comprehensive overview of various aspects of machine learning and its applications. It includes the following folders:
 
 1. Physics-Informed Neural Networks (PINNs)
 
