@@ -125,6 +125,8 @@ To apply PINNs to the Lugiato-Lefever Equation, the following steps are typicall
 
 Here, we factorize the real and imaginary parts of the LLE by  $\psi=u+i\cdot v, then the original model can be written in terms of the real and imaginary parts accordingly:
 
+$\psi$
+
 ### Advantages of PINNs
 
 - **Reduced Data Dependency:**
