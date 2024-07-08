@@ -49,6 +49,14 @@ The Lugiato-Lefever Equation can seem complex at first glance, so let's break it
 3. **Pattern Formation:**
    The LLE also explains how certain patterns of light can form in an optical cavity. These patterns result from the interplay between the nonlinearity and dispersion in the medium. For example, under certain conditions, the light field within the cavity can spontaneously break symmetry and form periodic patterns or localized structures. This phenomenon is similar to how ripples form on the surface of a pond when disturbed.
 
+<div style="text-align: center;">
+   <figure style="text-align: center;">
+     <img src="FIGs/Patterns.png" alt="Example Image" width="500" />
+     <figcaption> Patterns and solitons, Nat. Photon., 2013, 343 (2014)
+ </figcaption>
+   </figure>
+</div>
+
 ### Practical Example
 
 Let's consider a simple analogy to understand the LLE. Imagine you're pushing a swing (the light field) in a playground. The swing has a natural frequency (resonance), and you push it at this frequency (driving force). If you push too hard (high driving amplitude), the swing will move erratically, but if you push just right, it will swing back and forth smoothly. Now, if the swing's chain is stretchy (nonlinearity), the swing's frequency will change depending on how high it goes. Additionally, if there's a little friction (loss), you need to keep pushing to maintain the swing's motion.
