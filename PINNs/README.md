@@ -91,8 +91,14 @@ Traditional neural networks are trained using data to learn the underlying patte
 
 1. **Neural Network Architecture:**
    A typical PINN consists of a feedforward neural network with multiple hidden layers. The input to the network can include spatial and temporal variables, while the output is the predicted field $\psi(t, \theta)$.
+   <div style="text-align: center;">
+      <figure style="text-align: center;">
+        <img src="FIGs/MLP.png" alt="Example Image" width="300" />
+        <figcaption> A simple MLP network </figcaption>
+      </figure>
+   </div>
 
-2. **Loss Function:**
+3. **Loss Function:**
    The loss function in a PINN is composed of two main components:
    - **Data Loss:** This term measures the discrepancy between the network's predictions and any available observational data.
    - **Physics Loss:** This term ensures that the network's predictions satisfy the underlying physical equations (in this case, the Lugiato-Lefever Equation). The physics loss is computed by substituting the network's output into the differential equation and penalizing any deviation from zero.
