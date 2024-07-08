@@ -12,7 +12,7 @@ Traditional methods of solving the LLE involve numerical techniques which can be
 The Lugiato-Lefever equation is a partial differential equation used in nonlinear optics to describe the field inside an optical cavity. It is given by:
 
 $$
-i\frac{\partial \psi(t, \theta)}{\partial t} = \delta_0 \psi(t, \theta) -  \frac{D_2}{2}\partial^2_\theta \psi(t, \theta) - \gamma|\psi(t, \theta)|^2 \psi(t,\theta)  + i\frac{\kappa}{2}\left(\psi(t, \theta)-H \right)
+i\frac{\partial \psi(t, \theta)}{\partial t} = \delta \psi(t, \theta) -  \frac{D_2}{2}\partial^2_\theta \psi(t, \theta) - g|\psi(t, \theta)|^2 \psi(t,\theta)  + i\frac{\kappa}{2}\left(\psi(t, \theta)-h \right)
 $$
 
 where:
@@ -22,8 +22,9 @@ where:
 - $\theta$ is the spatial variable,
 - $D_2$ is the group velocity dispersion coefficient (higher dispersions are omitted),
 - $\kappa$ is the cavity loss rate,
-- $\delta_0 = \omega_0 - \omega_p$ is the cavity detuning between laser and pump,
-- $H$ is the driving field amplitude.
+- $g$ is the Kerr coefficient,
+- $\delta = \omega_0 - \omega_p$ is the cavity detuning between laser and pump,
+- $h$ is the driving field amplitude.
 
 This equation is a variant of the nonlinear Schrödinger equation (NLSE) with additional terms to account for cavity effects and external driving. The forms of dispersion and nonlinearity should be revised per materials and other factors, and here we assume the higher-order dispersion is weak in a Kerr medium.
 
@@ -129,9 +130,11 @@ To apply PINNs to the Lugiato-Lefever Equation, the following steps are typicall
 5. **Evaluate the Model:**
    After training, evaluate the performance of the PINN by comparing its predictions with known solutions or additional test data. Assess the accuracy and physical consistency of the results.
 
-Here, we factorize the real and imaginary parts of the LLE by  $\psi=u+i\cdot v, then the original model can be written in terms of the real and imaginary parts accordingly:
+Here, we factorize the real and imaginary parts of the LLE by  $\psi=u+i\cdot v$, then the original model can be written in terms of the real and imaginary parts accordingly:
 
-$\psi$
+$f_u = u_t +\frac{D_2}{2}v_{xx} + g(u^2+v^2)v - \delta v +\frac{\kappa}{2}u - h$
+
+$f_v = -v_t +\frac{D_2}{2}u_{xx} +g(u^2+v^2)u -\delta u -\frac{\kappa}{2}v$
 
 ### Advantages of PINNs
 
