@@ -28,6 +28,14 @@ where:
 
 This equation is a variant of the nonlinear Schrödinger equation (NLSE) with additional terms to account for cavity effects and external driving. The forms of dispersion and nonlinearity should be revised per materials and other factors, and here we assume the higher-order dispersion is weak in a Kerr medium.
 
+<div style="text-align: center;">
+   <figure style="text-align: center;">
+     <img src="FIGs/OFC.png" alt="Example Image" width="500" />
+     <figcaption> Optical frequency comb, Science, 361, 567 (2018)
+ </figcaption>
+   </figure>
+</div>
+
 ### Comprehensive Understanding of the LLE
 
 The Lugiato-Lefever Equation can seem complex at first glance, so let's break it down with a few examples and intuitive explanations.
