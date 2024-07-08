@@ -96,12 +96,18 @@ Traditional neural networks are trained using data to learn the underlying patte
    - **Data Loss:** This term measures the discrepancy between the network's predictions and any available observational data.
    - **Physics Loss:** This term ensures that the network's predictions satisfy the underlying physical equations (in this case, the Lugiato-Lefever Equation). The physics loss is computed by substituting the network's output into the differential equation and penalizing any deviation from zero.
 
-   The total loss is a weighted sum of the data loss and physics loss:
-   $$
-   \text{Total Loss} = \lambda_{\text{data}} \cdot \text{Data Loss} + \lambda_{\text{physics}} \cdot \text{Physics Loss}
-   $$
+The total loss is a weighted sum of the data initial loss, boundary loss and physics (PDE) loss:
 
-3. **Training Process:**
+$L_{Total} = L_{Init} + L_{BC} + L_{PDE}$
+
+where:
+
+- $L_{Init} = \frac{( ∑_{i=1}^{N_I} |\psi_{pred}^{i}(t=0) - \psi_{data}^{i}(t=0)|^2 )} { N_I}$ loss at initial time slot $t=0$, $i$ is the data point selected to train the model,
+- $L_{BC} = \frac{∑_{i=1}^{N_{BC}} \left[ (\psi_{pred}^{i}(x=+BL) - \psi_{pred}^{i}(x=-BL))^2+(\partial_x \psi_{pred}^{i}(x=+BL)-\partial_x \psi_{pred}^{i}(x=-BL))^2\right]}{N_{BC}} $, where $BL, BC$ stands for $Boundary Limit, Condition$
+- $L_{PDE} = \frac{ ∑_{i=1}^{N_{PDE}} f(\psi_{pred}^{i})^2 }{N_{PDE}}$, where $f(\psi)$ is our LLE model.
+
+  
+4. **Training Process:**
    The neural network is trained using gradient-based optimization techniques to minimize the total loss. This process adjusts the network's weights and biases to fit both the data and the physical model.
 
 ### Applying PINNs to the Lugiato-Lefever Equation
