@@ -28,13 +28,13 @@ where:
 
 This equation is a variant of the nonlinear Schrödinger equation (NLSE) with additional terms to account for cavity effects and external driving. The forms of dispersion and nonlinearity should be revised per materials and other factors, and here we assume the higher-order dispersion is weak in a Kerr medium.
 
-<div style="text-align: center;">
+
    <figure style="text-align: center;">
      <img src="FIGs/OFC.png" alt="Example Image" width="500" />
      <figcaption> Optical frequency comb, Science, 361, 567 (2018)
  </figcaption>
    </figure>
-</div>
+
 
 ### Comprehensive Understanding of the LLE
 
@@ -49,13 +49,13 @@ The Lugiato-Lefever Equation can seem complex at first glance, so let's break it
 3. **Pattern Formation:**
    The LLE also explains how certain patterns of light can form in an optical cavity. These patterns result from the interplay between the nonlinearity and dispersion in the medium. For example, under certain conditions, the light field within the cavity can spontaneously break symmetry and form periodic patterns or localized structures. This phenomenon is similar to how ripples form on the surface of a pond when disturbed.
 
-<div style="text-align: center;">
+
    <figure style="text-align: center;">
      <img src="FIGs/Patterns.png" alt="Example Image" width="500" />
      <figcaption> Patterns and solitons, Nat. Photon., 2013, 343 (2014)
  </figcaption>
    </figure>
-</div>
+
 
 ### Practical Example
 
@@ -107,12 +107,12 @@ Traditional neural networks are trained using data to learn the underlying patte
 
 1. **Neural Network Architecture:**
    A typical PINN consists of a feedforward neural network with multiple hidden layers. The input to the network can include spatial and temporal variables, while the output is the predicted field $\psi(t, \theta)$.
-   <div style="text-align: center;">
+
       <figure style="text-align: center;">
         <img src="FIGs/MLP.png" alt="Example Image" width="300" />
         <figcaption> A simple MLP network </figcaption>
       </figure>
-   </div>
+
 
 3. **Loss Function:**
    The loss function in a PINN is composed of two main components:
@@ -159,14 +159,11 @@ $f_u = u_t +\frac{D_2}{2}v_{xx} + g(u^2+v^2)v - \delta v +\frac{\kappa}{2}u - h$
 $f_v = -v_t +\frac{D_2}{2}u_{xx} +g(u^2+v^2)u -\delta u -\frac{\kappa}{2}v$
 
 ### Results
-
-<div style="text-align: center;">
    <figure style="text-align: center;">
-     <img src="FIGs/physics_informed_simul.png" alt="Example Image" width="500" />
+     <img src="FIGs/physics_informed_simul.jpg" alt="Example Image" width="500" />
      <figcaption> Caption: Panel (a) shows the dynamics of light propagating in a resonator. The orange and purple marks indicate the collection of points at the initial stage ($t=0$) and boundaries ($x = \pm\pi$), respectively. (b1-b4) present the mismatch between the training ('True') and predicted datasets at 4 special time slots. (c) records the total loss during the model training process.
  </figcaption>
    </figure>
-</div>
 
 
 
