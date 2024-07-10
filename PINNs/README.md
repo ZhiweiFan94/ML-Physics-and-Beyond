@@ -158,6 +158,19 @@ $f_u = u_t +\frac{D_2}{2}v_{xx} + g(u^2+v^2)v - \delta v +\frac{\kappa}{2}u - h$
 
 $f_v = -v_t +\frac{D_2}{2}u_{xx} +g(u^2+v^2)u -\delta u -\frac{\kappa}{2}v$
 
+### Results
+
+<div style="text-align: center;">
+   <figure style="text-align: center;">
+     <img src="FIGs/physics_informed_simul.png" alt="Example Image" width="500" />
+     <figcaption> Caption: Panel (a) shows the dynamics of light propagating in a resonator. The orange and purple marks indicate the collection of points at the initial stage ($t=0$) and boundaries ($x = \pm\pi$), respectively. (b1-b4) present the mismatch between the training ('True') and predicted datasets at 4 special time slots. (c) records the total loss during the model training process.
+ </figcaption>
+   </figure>
+</div>
+
+
+
+
 ### Advantages of PINNs
 
 - **Reduced Data Dependency:**
