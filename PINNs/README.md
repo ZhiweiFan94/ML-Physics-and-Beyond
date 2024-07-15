@@ -159,7 +159,7 @@ $f_u = u_t +\frac{D_2}{2}v_{xx} + g(u^2+v^2)v - \delta v +\frac{\kappa}{2}u - h$
 $f_v = -v_t +\frac{D_2}{2}u_{xx} +g(u^2+v^2)u -\delta u -\frac{\kappa}{2}v$
 
 ### Results
-Here, we conducted ....
+Here, we conducted PINNs for 
 
    <figure style="text-align: center;">
      <img src="FIGs/physics_informed_simul.jpg" alt="Example Image" width="500" />
